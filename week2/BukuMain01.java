@@ -1,13 +1,10 @@
-public class buku01 {
+
+public class BukuMain01 {
     String judul, pengarang;
     int halaman, stok, harga;
 
-    public buku01() {
-
-    }
-
-    public buku01(String jd, String pg, int hal, int stok, int har) {
-        judul = jd;
+    public BukuMain01(String jud, String pg, int hal, int stok, int har) {
+        judul = jud;
         pengarang = pg;
         halaman = hal;
         this.stok = stok;
@@ -15,6 +12,14 @@ public class buku01 {
     }
 
     public static void main(String[] args) {
+        BukuMain01 bk1 = new BukuMain01("Today Ends Tomorrow Comes", "Denanda Pratiwi", 198, 13, 71000);
+        bk1.tampilInformasi();
+        bk1.terjual(5);
+        bk1.gantiHarga(60000);
+        bk1.tampilInformasi();
+        BukuMain01 bk2 = new BukuMain01("Self Reward", "Maheera Ayesa", 160, 29, 59000);
+        bk2.terjual(11);
+        bk2.tampilInformasi();
     }
 
     void tampilInformasi() {
@@ -26,11 +31,7 @@ public class buku01 {
     }
 
     void terjual(int jml) {
-        if (stok > 0) {
-            stok -= jml;
-        } else {
-            stok = 0;
-        }
+        stok -= jml;
     }
 
     void restock(int jml) {
@@ -40,4 +41,5 @@ public class buku01 {
     void gantiHarga(int hrg) {
         harga = hrg;
     }
+
 }
