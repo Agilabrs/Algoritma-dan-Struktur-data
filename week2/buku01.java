@@ -15,6 +15,10 @@ public class buku01 {
     }
 
     public static void main(String[] args) {
+        buku01 agil = new buku01("Sang Pemimpi", "Abdillah Agil Arbiansyah", 210, 7, 78000);
+        agil.tampilInformasi();
+        agil.terjual(5);
+        agil.gantiHarga(60000);
     }
 
     void tampilInformasi() {
