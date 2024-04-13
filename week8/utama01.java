@@ -12,7 +12,8 @@ public class utama01 {
             System.out.println("1. Tambah Barang");
             System.out.println("2. Ambil Barang");
             System.out.println("3. Tampilkan Tumpukan Barang");
-            System.out.println("4. Keluar");
+            System.out.println("4. Lihat Barang Teratas");
+            System.out.println("5. Keluar");
             System.out.print("Pilih operasi: ");
             int pilihan = scan.nextInt();
             scan.nextLine();
@@ -36,6 +37,9 @@ public class utama01 {
                     gudang.tampilkanBarang();
                     break;
                 case 4:
+                    gudang.lihatBarangTeratas();
+                    break;
+                case 5:
                     System.exit(0);
                     break;
                 default:
