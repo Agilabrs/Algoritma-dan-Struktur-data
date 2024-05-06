@@ -5,11 +5,13 @@ public class gudang01 {
     barang01[] tumpukan;
     int size;
     int top;
+    int bot;
 
     public gudang01(int kapasitas) {
         size = kapasitas;
         tumpukan = new barang01[size];
         top = -1;
+        bot = 0;
     }
 
     public boolean cekKosong() {
@@ -90,5 +92,27 @@ public class gudang01 {
             biner += stack.pop();
         }
         return biner;
+    }
+
+    public barang01 lihatBarangTerbawah() {
+        if (!cekKosong()) {
+            barang01 barangTerbawah = tumpukan[bot];
+            System.out.println("Barang Terbawah : " + barangTerbawah.nama);
+            return barangTerbawah;
+        } else {
+            System.out.println("Tumpukan barang kosong");
+            return null;
+        }
+    }
+
+    public boolean cariBarang(String namaBarang) {
+        for (int i = 0; i <= top; i++) {
+            if (tumpukan[i].nama.equals(namaBarang)) {
+                System.out.println("Barang " + namaBarang + " ditemukan di tumpukan ke-" + (i + 1));
+                return true;
+            }
+        }
+        System.out.println("Barang " + namaBarang + " tidak ditemukan di gudang");
+        return false;
     }
 }
