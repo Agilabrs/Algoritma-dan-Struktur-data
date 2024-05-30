@@ -1,0 +1,321 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "graphMain",
+            "request": "launch",
+            "mainClass": "week15.graphMain",
+            "projectName": "Algoritma-dan-Struktur-data_7104bd0e"
+        },
+        {
+            "type": "java",
+            "name": "GraphMain01",
+            "request": "launch",
+            "mainClass": "week15.GraphMain01",
+            "projectName": "Algoritma-dan-Struktur-data_7104bd0e"
+        },
+        {
+            "type": "java",
+            "name": "BinaryTreeMain01",
+            "request": "launch",
+            "mainClass": "week14.BinaryTreeMain01",
+            "projectName": "Algoritma-dan-Struktur-data_7104bd0e"
+        },
+        {
+            "type": "java",
+            "name": "BinaryTreeArrayMain",
+            "request": "launch",
+            "mainClass": "week14.BinaryTreeArrayMain",
+            "projectName": "Algoritma-dan-Struktur-data_7104bd0e"
+        },
+        {
+            "name": "Java",
+            "type": "java",
+            "request": "launch",
+            "stopOnEntry": true,
+            "jdkPath": "${env:JAVA_HOME}/bin",
+            "cwd": "${fileDirname}",
+            "startupClass": "${fileBasenameNoExtension}",
+            "classpath": [
+                ".",
+                "${fileDirname}"
+            ]
+        },
+        {
+            "name": "Java Console App",
+            "type": "java",
+            "request": "launch",
+            "stopOnEntry": true,
+            "jdkPath": "${env:JAVA_HOME}/bin",
+            "cwd": "${fileDirname}",
+            "startupClass": "${fileBasenameNoExtension}",
+            "classpath": [
+                ".",
+                "${fileDirname}"
+            ],
+            "externalConsole": true
+        },
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Balok",
+            "request": "launch",
+            "mainClass": "ArrayBalok.Balok",
+            "projectName": "Algoritma-dan-Struktur-data_7104bd0e"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "ArrayBalok.Main",
+            "projectName": "Algoritma-dan-Struktur-data_7104bd0e"
+        },
+        {
+            "type": "java",
+            "name": "ArrayObject",
+            "request": "launch",
+            "mainClass": "ArrayObject",
+            "projectName": "Algoritma-dan-Struktur-data_7104bd0e"
+        },
+        {
+            "type": "java",
+            "name": "BukuMain01",
+            "request": "launch",
+            "mainClass": "BukuMain01",
+            "projectName": "Algoritma-dan-Struktur-data_7104bd0e"
+        },
+        {
+            "type": "java",
+            "name": "Dragon",
+            "request": "launch",
+            "mainClass": "Dragon",
+            "projectName": "Algoritma-dan-Struktur-data_7104bd0e"
+        },
+        {
+            "type": "java",
+            "name": "DragonMain",
+            "request": "launch",
+            "mainClass": "DragonMain",
+            "projectName": "Algoritma-dan-Struktur-data_7104bd0e"
+        },
+        {
+            "type": "java",
+            "name": "KlinikDokter",
+            "request": "launch",
+            "mainClass": "KlinikDokter",
+            "projectName": "Algoritma-dan-Struktur-data_7104bd0e"
+        },
+        {
+            "type": "java",
+            "name": "mainMahasiswa",
+            "request": "launch",
+            "mainClass": "Mahasiswa.mainMahasiswa",
+            "projectName": "Algoritma-dan-Struktur-data_7104bd0e"
+        },
+        {
+            "type": "java",
+            "name": "array",
+            "request": "launch",
+            "mainClass": "array",
+            "projectName": "Algoritma-dan-Struktur-data_7104bd0e"
+        },
+        {
+            "type": "java",
+            "name": "buku01",
+            "request": "launch",
+            "mainClass": "buku01",
+            "projectName": "Algoritma-dan-Struktur-data_7104bd0e"
+        },
+        {
+            "type": "java",
+            "name": "nilaiAkhir",
+            "request": "launch",
+            "mainClass": "nilaiAkhir",
+            "projectName": "Algoritma-dan-Struktur-data_7104bd0e"
+        },
+        {
+            "type": "java",
+            "name": "persegiPanjang",
+            "request": "launch",
+            "mainClass": "persegiPanjang",
+            "projectName": "Algoritma-dan-Struktur-data_7104bd0e"
+        },
+        {
+            "type": "java",
+            "name": "tampilBilangan",
+            "request": "launch",
+            "mainClass": "tampilBilangan",
+            "projectName": "Algoritma-dan-Struktur-data_7104bd0e"
+        },
+        {
+            "type": "java",
+            "name": "QueueMain",
+            "request": "launch",
+            "mainClass": "week10.QueueMain",
+            "projectName": "Algoritma-dan-Struktur-data_7104bd0e"
+        },
+        {
+            "type": "java",
+            "name": "queue01Main",
+            "request": "launch",
+            "mainClass": "week10.queue01Main",
+            "projectName": "Algoritma-dan-Struktur-data_7104bd0e"
+        },
+        {
+            "type": "java",
+            "name": "LinkedListMain01",
+            "request": "launch",
+            "mainClass": "week11.LinkedListMain01",
+            "projectName": "Algoritma-dan-Struktur-data_7104bd0e"
+        },
+        {
+            "type": "java",
+            "name": "QueueLinkedListMain",
+            "request": "launch",
+            "mainClass": "week11.QueueLinkedListMain",
+            "projectName": "Algoritma-dan-Struktur-data_7104bd0e"
+        },
+        {
+            "type": "java",
+            "name": "SLLMain",
+            "request": "launch",
+            "mainClass": "week11.SLLMain",
+            "projectName": "Algoritma-dan-Struktur-data_7104bd0e"
+        },
+        {
+            "type": "java",
+            "name": "DoubleLinkedListMain",
+            "request": "launch",
+            "mainClass": "week12.doubleLinkedlist.DoubleLinkedListMain",
+            "projectName": "Algoritma-dan-Struktur-data_7104bd0e"
+        },
+        {
+            "type": "java",
+            "name": "filmMain",
+            "request": "launch",
+            "mainClass": "week12.tugas.filmMain",
+            "projectName": "Algoritma-dan-Struktur-data_7104bd0e"
+        },
+        {
+            "type": "java",
+            "name": "vaccine",
+            "request": "launch",
+            "mainClass": "week12.tugas.vaccine",
+            "projectName": "Algoritma-dan-Struktur-data_7104bd0e"
+        },
+        {
+            "type": "java",
+            "name": "bengkelMain",
+            "request": "launch",
+            "mainClass": "week13.bengkelMain",
+            "projectName": "Algoritma-dan-Struktur-data_7104bd0e"
+        },
+        {
+            "type": "java",
+            "name": "BinaryTreeMain",
+            "request": "launch",
+            "mainClass": "week14.BinaryTreeMain",
+            "projectName": "Algoritma-dan-Struktur-data_7104bd0e"
+        },
+        {
+            "type": "java",
+            "name": "segiTiga",
+            "request": "launch",
+            "mainClass": "week3.segiTiga",
+            "projectName": "Algoritma-dan-Struktur-data_7104bd0e"
+        },
+        {
+            "type": "java",
+            "name": "Book",
+            "request": "launch",
+            "mainClass": "week4.Book",
+            "projectName": "Algoritma-dan-Struktur-data_7104bd0e"
+        },
+        {
+            "type": "java",
+            "name": "sewaMain",
+            "request": "launch",
+            "mainClass": "week4.sewaMain",
+            "projectName": "Algoritma-dan-Struktur-data_7104bd0e"
+        },
+        {
+            "type": "java",
+            "name": "MainFaktorial",
+            "request": "launch",
+            "mainClass": "week5.MainFaktorial",
+            "projectName": "Algoritma-dan-Struktur-data_7104bd0e"
+        },
+        {
+            "type": "java",
+            "name": "MainPangkat",
+            "request": "launch",
+            "mainClass": "week5.MainPangkat",
+            "projectName": "Algoritma-dan-Struktur-data_7104bd0e"
+        },
+        {
+            "type": "java",
+            "name": "MainSum",
+            "request": "launch",
+            "mainClass": "week5.MainSum",
+            "projectName": "Algoritma-dan-Struktur-data_7104bd0e"
+        },
+        {
+            "type": "java",
+            "name": "mainHotel",
+            "request": "launch",
+            "mainClass": "week6.mainHotel",
+            "projectName": "Algoritma-dan-Struktur-data_7104bd0e"
+        },
+        {
+            "type": "java",
+            "name": "mainMahasiswa(1)",
+            "request": "launch",
+            "mainClass": "week6.mainMahasiswa",
+            "projectName": "Algoritma-dan-Struktur-data_7104bd0e"
+        },
+        {
+            "type": "java",
+            "name": "BukuMain01(1)",
+            "request": "launch",
+            "mainClass": "week7.BukuMain01",
+            "projectName": "Algoritma-dan-Struktur-data_7104bd0e"
+        },
+        {
+            "type": "java",
+            "name": "MergeSortMain01",
+            "request": "launch",
+            "mainClass": "week7.MergeSortMain01",
+            "projectName": "Algoritma-dan-Struktur-data_7104bd0e"
+        },
+        {
+            "type": "java",
+            "name": "KlinikMain",
+            "request": "launch",
+            "mainClass": "week8.KlinikMain",
+            "projectName": "Algoritma-dan-Struktur-data_7104bd0e"
+        },
+        {
+            "type": "java",
+            "name": "PostfixMain01",
+            "request": "launch",
+            "mainClass": "week8.PostfixMain01",
+            "projectName": "Algoritma-dan-Struktur-data_7104bd0e"
+        },
+        {
+            "type": "java",
+            "name": "utama01",
+            "request": "launch",
+            "mainClass": "week8.utama01",
+            "projectName": "Algoritma-dan-Struktur-data_7104bd0e"
+        }
+    ]
+}
