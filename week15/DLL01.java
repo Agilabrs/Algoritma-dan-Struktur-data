@@ -87,4 +87,15 @@ public class DLL01 {
         return tmp.data;
     }
 
+    public void updateJarak(int index, int jarak) throws Exception {
+        if (isEmpty() || index >= size) {
+            throw new Exception("Nilai index di luar batas");
+        }
+        Node tmp = head;
+        for (int i = 0; i < index; i++) {
+            tmp = tmp.next;
+        }
+        tmp.jarak = jarak;
+    }
+
 }

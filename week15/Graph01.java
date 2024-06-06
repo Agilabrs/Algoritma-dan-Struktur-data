@@ -72,33 +72,44 @@ public class Graph01 {
         System.out.println("");
     }
 
-    public void graphMatriks(int v) {
-        vertex = v;
-        matriks = new int[v][v];
-        for (int i = 0; i < v; i++) {
-            for (int j = 0; j < v; j++) {
-                matriks[i][j] = -1;
-            }
-        }
-    }
-
-    public void makeEdge(int asal, int tujuan, int jarak) {
-        try {
-            matriks[asal][tujuan] = jarak;
-        } catch (ArrayIndexOutOfBoundsException index) {
-            System.out.println("The vertices does not exists");
-        }
-    }
-
-    public void printMatriks() {
-        for (int i = 0; i < vertex; i++) {
-            System.out.print("Gedung " + (char) ('A' + i) + " : ");
-            for (int j = 0; j < vertex; j++) {
-                if (matriks[i][j] != -1) {
-                    System.out.print("Gedung " + (char) ('A' + j) + " (" + matriks[i][j] + " m), ");
+    public boolean cekJalur(int asal, int tujuan) {
+        for (int i = 0; i < list[asal].size(); i++) {
+            try {
+                if (list[asal].get(i) == tujuan) {
+                    return true;
                 }
+            } catch (Exception e) {
+                e.printStackTrace();
             }
-            System.out.println();
         }
+        return false;
+    }
+
+    public void cetakJalur(int asal, int tujuan) {
+        if (cekJalur(asal, tujuan)) {
+            System.out.println("Gedung " + (char) ('A' + asal) + " dan " + (char) ('A' + tujuan) + " bertetangga");
+        } else {
+            System.out
+                    .println("Gedung " + (char) ('A' + asal) + " dan " + (char) ('A' + tujuan) + " tidak bertetangga");
+        }
+        System.out.println("");
+    }
+
+    public void updateJarak(int asal, int tujuan, int jarak) throws Exception {
+        for (int i = 0; i < list[asal].size(); i++) {
+            if (list[asal].get(i) == tujuan) {
+                list[asal].updateJarak(i, jarak);
+                return;
+            }
+        }
+        throw new Exception("Edge tidak ditemukan.");
+    }
+
+    public int hitungEdge() {
+        int count = 0;
+        for (int i = 0; i < vertex; i++) {
+            count += list[i].size();
+        }
+        return count;
     }
 }
